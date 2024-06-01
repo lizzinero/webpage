@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    background-color: #A92A55;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.main {
+    display: flex;
+    background-color: #D2F700;
+    width: 100vw;
+    height: 500px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: column wrap;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: larger;
+    text-align: center;
+}
+.title {
+    align-self: flex-start;
+    width: calc(100vw - 300px);
+}
+.article {
+    display: flex;
+    width: calc(100vw - 300px);
+    flex-flow: row wrap;
+    align-self: flex-end;
+    justify-content: space-around;
+}
+.article1 {
+    color: black;
+    background-color: #F06C98;
+    width: 600px;
+    height: 100px;
+    margin: 20px;
+}
+.article2 {
+    color: black;
+    background-color: #F06C98;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+}
+.article3 {
+    color: black;
+    background-color: #F06C98;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+}
+.aside {
+    background-color: #89A100;
+    width: 300px;
+    height: 500px;
+    align-self: flex-end;
+}
+.footer {
+    display: flex;
+    background-color: #4D2982;
+    width: 100vw;
+    height: 110px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.section1 {
+    background-color: #966BD6;
+    color: rgb(15, 15, 12);
+    width: 200px;
+    height: 70px;
+}
+.section2 {
+    background-color: #966BD6;
+    color: rgb(32, 32, 28);
+    width: 200px;
+    height: 70px;
+}
+.section3 {
+    background-color: #966BD6;
+    color: rgb(27, 27, 25);
+    width: 200px;
+    height: 70px;
+}
+.section4 {
+    background-color: #966BD6;
+    color: rgb(18, 18, 16);
+    width: 200px;
+    height: 70px;
+}
